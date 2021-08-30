@@ -1,0 +1,28 @@
+#first{
+    background-color: hotpink;
+    height:200px
+}
+#second{
+    background-color: slategray;
+    height:200px
+}
+#third{
+    background-color: slateblue;
+    height:200px
+}
+#fourth{
+    background-color: silver;
+    height:200px
+}
+#fifth{
+    background-color: skyblue;
+    height:200px
+}
+#sixth{
+    background-color: indianred;
+    height:200px
+}
+
+.btn-warning{
+    background-color: rgb(27, 233, 233) !important;
+}

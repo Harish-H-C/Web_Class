@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Form Validtion</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="forms.css"/>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+        <script src="forms.js"></script>
+        <link rel="stylesheet" href="form.css"/>
+        
+    </head>
+    <body>
+        <div class="container">
+            <hr/>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    Employee Form
+                </div>
+                <div class="panel-body">
+                    <form method="GET">
+                        <div class="form-group">
+                            <label for="eid">Employee ID</label>
+                            <input class="form-control" id="eid" name="eid" placeholder="Enter Uses Emp Id" />
+                        </div>
+                        <div class="form-group">
+                            <label for="fname">First Name</label>
+                            <input class="form-control" id="fname" name="fname" placeholder="Enter User Name" onblur="firstToUpper()" />
+                        </div>
+                        <div class="form-group">
+                            <label for="lname">Last Name</label>
+                            <input class="form-control" id="lname" name="lname" placeholder="Enter User Name" onblur="lastName()" />
+                            <p id="lout"></p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter Your Email-ID" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <input type="password" class="form-control" id="password" name="password" placeholder="Enter Your Password" onInput="checkPassword()"/>
+                                    <p id="pout" ></p>
+                                    <p id="ppout" ></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="cpassword">Confirm Password</label>
+                                    <input type="password" class="form-control" id="cpassword" name="cpassword" placeholder="Confirm Password" onInput="checkCPassword()"/>
+                                    <p id="cpout" ></p>
+                                </div>
+                            </div>
+                        </div>
+                        <span id="cout"></span>
+                        <div class="form-group">
+                            <label for="city">Select Country:</label>
+                            <select class="form-control" id="city" onChange="getCity()">
+                                <option>India</option>
+                                <option>Srilanka</option>
+                                <option>Dubai</option>
+                                <option>RSA</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                        <button type="reset" class="btn btn-danger">Reset</button>
+                    </form>
+                </div>
+            </div>
+
+            <script>window.onload=fillId();</script>
+    </body>
+</html>

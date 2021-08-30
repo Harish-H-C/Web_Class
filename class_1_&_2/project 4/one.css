@@ -1,0 +1,94 @@
+#twodimg{
+    margin: 2%;
+}
+#img1{
+    height: 180px;
+    width:20%;
+    border:1px solid black;
+    display:inline-block;
+    margin-left: 22%;
+    margin-top: 5%;
+    background-image: url('./images/edu.jpg');
+    box-shadow: 1px 1px 5px red;
+    transform: rotate(30deg);
+}
+#img2{
+    height: 180px;
+    width:20%;
+    border:1px solid black;
+    display:inline-block;
+    margin-left: 22%;
+    background-image: url('./images/mumbai.jpg');
+    margin-top: 2%;
+    box-shadow: 1px 1px 5px red;
+    transform: rotate(60deg);
+}
+#img3{
+    height: 180px;
+    width:20%;
+    border:1px solid black;
+    display:inline-block;
+    margin-left: 22%;
+    background-image: url('./images/travel.png');
+    margin-top: 5%;
+    box-shadow: 1px 1px 5px red;
+    transform: rotate(30deg);
+}
+#img4{
+    height: 180px;
+    width:20%;
+    border:1px solid black;
+    display:inline-block;
+    margin-left: 22%;
+    background-image: url('./images/chennai.png');
+    margin-top: 8%;
+    box-shadow: 1px 1px 5px red;
+    transform: rotate(30deg);
+}
+#img5{
+    height: 180px;
+    width:20%;
+    border:1px solid black;
+    display:inline-block;
+    margin-left: 22%;
+    background-image: url('./images/chatkaz.jpg');
+    margin-top: 12%;
+    box-shadow: 1px 1px 5px red;
+    transform: rotate(60deg);
+}
+
+#img6{
+    height: 180px;
+    width:20%;
+    border:1px solid black;
+    display:inline-block;
+    margin-left: 10%;
+    background-image: url('./images/chatkaz.jpg');
+    margin-top: 12%;
+    box-shadow: 1px 1px 5px red;
+    transform: skewY(30deg);
+}
+
+#img7{
+    height: 180px;
+    width:20%;
+    border:1px solid black;
+    display:inline-block;
+    margin-left: 10%;
+    background-image: url('./images/edu.jpg');
+    margin-top: 12%;
+    box-shadow: 1px 1px 5px red;
+    transform: skewY(180deg);
+}
+
+#img8{
+    height: 180px;
+    width:20%;
+    border:1px solid black;
+    display:inline-block;
+    margin-left: 10%;
+    background-image: url('./images/travel.png');
+    margin-top: 12%;
+    box-shadow: 1px 1px 5px red;
+    transform: skewY(30deg);
+}

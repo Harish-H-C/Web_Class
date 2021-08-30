@@ -1,0 +1,43 @@
+h1{
+    color:#A07b;
+    text-align:center; 
+}
+#head{
+    color:blue;
+}
+#head1{
+    color:green;
+}    
+.content{
+    color:white;
+    text-align: center;
+    background-color: blueviolet;
+    height: 200px;
+    width: 30%;
+    display: inline-block;
+    overflow: scroll;
+}
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orange; 
+}
+.yellow{
+    background-color: red;
+    
+}
+.center{
+    text-align:center;
+}
+.main{
+    display:inline-block;
+    margin-left: 2%;
+}
+#imgdiv{
+    text-align:center;
+}
+#imgdiv > img{
+    height: 300px;
+    width: 400px;
+}

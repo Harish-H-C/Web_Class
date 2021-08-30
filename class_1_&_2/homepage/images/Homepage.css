@@ -1,0 +1,140 @@
+body{
+    margin: auto;
+}
+.main{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#search{
+    height:450px;
+    width:100%;
+    background-image: url('food-wallpaper.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-size: 100% 450px;
+}
+
+#loginblock{
+    text-align:right;
+    margin-left:13%;
+    width:80%;
+}
+
+#login{
+    height: 30px;
+    width: 65px;
+    font-size: 19px;
+    border:none
+}
+#signup{
+    height: 30px;
+    width: 185px;
+    font-size: 19px;
+    border:none
+}
+
+.logo{
+    height:150px;
+    width:150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 45%;
+    text-align:center;
+}
+
+.logo > span{
+    font-weight: bold;
+    color:red;
+    font-size:65px;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: -4%;
+}
+
+#heading{
+    text-align: center;
+    font-size:40px;
+    color:white;
+    margin-top: 3%;
+}
+
+#dropdown{
+    height:60px;
+    width:60%;
+    margin-left: 24%;
+    margin-top: 2%;
+
+}
+
+select{
+    height: 60px;
+    width:30%;
+    font-size:20px
+}
+#restaurants{
+    width:60%;
+    margin-left: 2%;
+}
+
+#quickSearch{
+    width:100%;
+    width:80%;
+    margin-left:10%;
+    margin-top:2%
+}
+#QuickSearchHeading{
+    color:#192f60;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display:block;
+    font-weight: bold;
+}
+#QuickSearchSubHeading{
+    color:gray;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display:block;
+}
+
+#mainTileContainer{
+    margin-top:3%
+}
+
+.tileContainer{
+    height:180px;
+    width:30%;
+    margin-left:2%;
+    display: inline-block;
+    margin-top:2%;
+    box-shadow: 15px 14px 11px grey;
+}
+
+
+.tileComponent1{
+    width:50%;
+    float: left;
+}
+
+.tileComponent1 >img{
+    height:180px;
+    width:100%
+}
+
+.tileComponent2{
+    width:40%;
+    float: left;
+    margin-left: 8%;
+    margin-top: 10%
+}
+
+.componentHeading{
+    color:#192f60;
+    font-size:25px;
+    font-weight:bold;
+}
+
+.componentSubHeading{
+    color:gray;
+    font-size:18px;
+}
